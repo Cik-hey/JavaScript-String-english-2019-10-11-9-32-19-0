@@ -17,5 +17,5 @@ console.log(capitalizeTheFirstLetterOfEachWord(sentence));
 
 // Complete the following procedure to extract the amount of money variable, output: 20.
 var money = '￥20';
-var extractedmoney = parseFloat(money.replace( /[^\d\.]*/g, ''));
+var extractedmoney = money.substring(1,3);
 console.log(extractedmoney);
